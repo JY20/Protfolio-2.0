@@ -9,17 +9,13 @@ ul {
   padding: 0;
 }
 h1 {
-  font-size: 32px;
+  font-size: 50px;
   padding-left: 80px;
 }
-/* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
   width: 40%;
-  padding: 0;
 }
-
-/* Clear floats after image containers */
 .row::after {
   content: "";
   clear: both;
@@ -31,6 +27,7 @@ section {
 .menu {
   background-color: #333;
   overflow: hidden;
+  height: 10%;
 }
 .menu a {
   float: left;
@@ -52,6 +49,7 @@ section {
 .contact {
   background-color: #333;
   overflow: hidden;
+  height: 10%;
 }
 .contact a {
   float: left;
