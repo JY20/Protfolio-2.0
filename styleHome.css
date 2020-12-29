@@ -42,7 +42,7 @@ section {
   color: black;
 }
 .menu a.active {
-  background-color: #4caf50;
+  background-color: darkgrey;
   color: white;
 }
 
